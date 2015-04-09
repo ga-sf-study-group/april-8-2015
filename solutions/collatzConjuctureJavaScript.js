@@ -20,4 +20,15 @@ var collatz = function (n) {
     return steps;
 };
 
-this.console.log(collatz(20));
+console.log(collatz(20));
+
+function collatzConjectureIterative(n) {
+  
+  var steps = 0;
+  while(n !== 1) {
+    n = n % 2 === 0 ? n / 2 : n * 3 + 1;
+    steps++;
+  }
+  return steps;
+}
+console.log(collatzConjectureIterative(20));
