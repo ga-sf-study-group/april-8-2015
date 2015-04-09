@@ -1,4 +1,4 @@
-
+// Problem 2 - Calculate Change
 
 function calculateChange(cost, money) {
   cost *= 100;

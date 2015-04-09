@@ -1,5 +1,4 @@
 # Collatz Conjucture 
-# Solution found at https://github.com/petehuang/Projects/blob/master/Classic%20Algorithms/collatz.rb
 
 puts "Gimme a number greater than one: "
 n = gets.strip.to_i

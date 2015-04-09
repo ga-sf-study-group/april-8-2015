@@ -1,5 +1,4 @@
-# Calculate Change
-# Solution found at https://github.com/petehuang/Projects/blob/master/Numbers/change_return.rb
+# Calculate Change - Ruby
 
 print "Enter how much this costs : "
 cost = gets.strip.to_f

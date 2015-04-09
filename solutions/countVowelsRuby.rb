@@ -1,5 +1,4 @@
 # Count Vowels
-# Solution found at https://github.com/petehuang/Projects/blob/master/Text/count_vowels.rb
 
 def count_vowels(string)
   array = string.each_char.to_a

@@ -1,5 +1,4 @@
 // Collatz Conjucture
-// Solution found at https://github.com/quitrk/LearningJS/blob/master/Classic%20Algorithms/00.%20Collatz%20Conjecture.js
 
 var collatz = function (n) {
     "use strict";
@@ -21,6 +20,8 @@ var collatz = function (n) {
 };
 
 console.log(collatz(20));
+
+// Solution written by Aaron
 
 function collatzConjectureIterative(n) {
   
