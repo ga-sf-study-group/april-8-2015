@@ -16,3 +16,5 @@ function countVowelReduce(text) {
     return vowels;
   }, vowels);
 }
+
+console.log(countVowelReduce("WDI at GA rocks!"));

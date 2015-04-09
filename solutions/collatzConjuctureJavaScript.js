@@ -21,8 +21,8 @@ var collatz = function (n) {
 
 console.log(collatz(20));
 
-// Solution written by Aaron
 
+// Alternate solution written by Aaron
 function collatzConjectureIterative(n) {
   
   var steps = 0;
